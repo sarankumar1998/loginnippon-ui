@@ -1,0 +1,40 @@
+ *{
+    font-family: Helvetica;
+    font-weight: 600;
+}
+ .background{
+    background: url('../images/pexels-tima-miroshnichenko-6474496.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+} 
+.card{
+    margin-top: 5rem;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
+
+#fp{
+    margin-bottom: 1rem;
+    color: grey;
+    cursor:grab;
+}
+/* 
+.form-group{
+  background-color:rgb(252, 242, 230);
+  margin-bottom:1rem ;
+  margin-top: .5rem;
+  padding: 1rem;
+ 
+} */
+.btn{
+    width: 20rem !important;
+}
+a{
+    text-decoration: none;
+}
+/* responsive for all device */
+ @media screen and (max-width:988px){
+    .btn{
+        width: 10rem !important;
+    }
+}
